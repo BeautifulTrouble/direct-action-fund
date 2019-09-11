@@ -1,29 +1,21 @@
-# direct-action-fund
+# Get Up Rise Up Direct Action Fund
+
+### A partnership between Beautiful Trouble and Africans Rising
+
+Editors can make changes to the [ArchieML](http://archieml.org) document here: **[content.aml](https://github.com/BeautifulTrouble/direct-action-fund/edit/master/src/content.aml)**
+
 
 ## Project setup
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+### Compile and hot-reloads for development
 ```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
+yarn serve
 ```
 
-### Run your tests
+### Compile and minifies for production
 ```
-yarn run test
+yarn build
 ```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
