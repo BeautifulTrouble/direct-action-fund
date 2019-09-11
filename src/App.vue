@@ -223,6 +223,9 @@ nav {
 header {
   padding-top: $nav-height + 3rem;
   padding-bottom: 2rem;
+  @include breakpoint($sm) {
+    padding-top: $nav-height + 2rem;
+  }
   .text-wrapper  {
     display: flex;
     align-items: flex-end;
