@@ -182,10 +182,8 @@ nav {
     position: fixed;
     top: 0; 
     left: 0; right: 0;
-    @include breakpoint($upper) {
-      &--unpinned {
-        transform: translate3d(0, -75%, 0);
-      }
+    &--unpinned {
+      transform: translate3d(0, -75%, 0);
     }
   }
   &:after {
