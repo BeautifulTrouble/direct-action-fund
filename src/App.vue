@@ -177,7 +177,9 @@ nav {
   transform: translate3d(0, 0, 0);
   transition: all .1s ease-in-out;
   z-index: 999;
-
+  @include breakpoint($sm) {
+    transform: translate3d(0, -75%, 0);
+  }
   &.headroom {
     position: fixed;
     top: 0; 
