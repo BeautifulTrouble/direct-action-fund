@@ -177,15 +177,15 @@ nav {
   transform: translate3d(0, 0, 0);
   transition: all .1s ease-in-out;
   z-index: 999;
-
+  @include breakpoint($sm) {
+    transform: translate3d(0, -75%, 0);
+  }
   &.headroom {
     position: fixed;
     top: 0; 
     left: 0; right: 0;
-    @include breakpoint($upper) {
-      &--unpinned {
-        transform: translate3d(0, -75%, 0);
-      }
+    &--unpinned {
+      transform: translate3d(0, -75%, 0);
     }
   }
   &:after {
@@ -223,6 +223,9 @@ nav {
 header {
   padding-top: $nav-height + 3rem;
   padding-bottom: 2rem;
+  @include breakpoint($sm) {
+    padding-top: $nav-height + 2rem;
+  }
   .text-wrapper  {
     display: flex;
     align-items: flex-end;
